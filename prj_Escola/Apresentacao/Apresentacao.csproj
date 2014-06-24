@@ -215,6 +215,10 @@
     <None Include="Resources\CentroPaulaSouza.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AcessoDados\AcessoDados.csproj">
+      <Project>{402F0738-DBD9-4767-A887-B22B0F8DDDA8}</Project>
+      <Name>AcessoDados</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DTO\DTO.csproj">
       <Project>{f5d269da-34a4-4f0f-9351-568f4cf2fd96}</Project>
       <Name>DTO</Name>

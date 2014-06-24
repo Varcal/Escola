@@ -42,6 +42,7 @@
     <Compile Include="AlunoNegocios.cs" />
     <Compile Include="CursoNegocios.cs" />
     <Compile Include="DisciplinaNegocios.cs" />
+    <Compile Include="Interfaces\IAlunoNegocios.cs" />
     <Compile Include="LoginNegocios.cs" />
     <Compile Include="NotasNegocios.cs" />
     <Compile Include="ProfessorNegocios.cs" />

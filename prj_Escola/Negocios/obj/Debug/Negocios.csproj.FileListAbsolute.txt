@@ -61,3 +61,12 @@ V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Negocios\bin\Debug\DTO.pdb
 V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Negocios\obj\Debug\Negocios.csprojResolveAssemblyReference.cache
 V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Negocios\obj\Debug\Negocios.dll
 V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Negocios\obj\Debug\Negocios.pdb
+C:\Users\Cleber\Documents\GitHub\Escola\prj_Escola\Negocios\bin\Debug\Negocios.dll
+C:\Users\Cleber\Documents\GitHub\Escola\prj_Escola\Negocios\bin\Debug\Negocios.pdb
+C:\Users\Cleber\Documents\GitHub\Escola\prj_Escola\Negocios\bin\Debug\AcessoDados.dll
+C:\Users\Cleber\Documents\GitHub\Escola\prj_Escola\Negocios\bin\Debug\DTO.dll
+C:\Users\Cleber\Documents\GitHub\Escola\prj_Escola\Negocios\bin\Debug\AcessoDados.pdb
+C:\Users\Cleber\Documents\GitHub\Escola\prj_Escola\Negocios\bin\Debug\DTO.pdb
+C:\Users\Cleber\Documents\GitHub\Escola\prj_Escola\Negocios\obj\Debug\Negocios.csprojResolveAssemblyReference.cache
+C:\Users\Cleber\Documents\GitHub\Escola\prj_Escola\Negocios\obj\Debug\Negocios.dll
+C:\Users\Cleber\Documents\GitHub\Escola\prj_Escola\Negocios\obj\Debug\Negocios.pdb

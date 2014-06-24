@@ -27,7 +27,7 @@ namespace Apresentacao
                 return;
             }
             var alunoNegocios = new AlunoNegocios();
-            var aluno = alunoNegocios.ConsultaAlunoId(textBoxRA.Text);
+            var aluno = alunoNegocios.ListarId(textBoxRA.Text);
 
             if (aluno.IdAluno == 0)
             {

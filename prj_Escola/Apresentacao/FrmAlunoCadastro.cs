@@ -214,7 +214,7 @@ namespace Apresentacao
                     var disciplinaCollection =
                         (DisciplinaCollection) disciplinaNegocios.ConsultaDisciplinaNome(comboBoxDisciplina.Text);
                     var alunoNegocios = new AlunoNegocios();
-                    var alunoCollection = (AlunoCollection) alunoNegocios.ConsultaAlunoNome(comboBoxAluno.Text);
+                    var alunoCollection = (AlunoCollection) alunoNegocios.ListarNome(comboBoxAluno.Text);
 
                     var notas = new Notas();
                     notas.IdCurso = cursoCollection.First().IdCurso;

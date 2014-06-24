@@ -9,11 +9,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DTO;
 using Negocios;
+using Negocios.Interfaces;
 
 namespace Apresentacao
 {
     public partial class FrmAlunoSelecionar : Form
     {
+        private readonly IAlunoNegocios _alunoNegocios = new AlunoNegocios();
+
         Selecao selecionado;
 
         public FrmAlunoSelecionar()
@@ -173,11 +176,11 @@ namespace Apresentacao
                     return;
                 }
                     var alunoCollection = new AlunoCollection();
-                    var alunoNegocios = new AlunoNegocios();
+                    
                     var cursoCollection = new CursoCollection();
                     var cursoNegocios = new CursoNegocios();
                     cursoCollection =(CursoCollection) cursoNegocios.ConsultaCursoNome(comboBoxCurso.Text);
-                    alunoCollection = alunoNegocios.ConsultaAlunoCurso(cursoCollection[0].IdCurso);
+                    alunoCollection = _alunoNegocios.ConsultaAlunoCurso(cursoCollection[0].IdCurso);
                     dgvAlunoCurso.DataSource = null;
                     dgvAlunoCurso.DataSource = alunoCollection;
                 
@@ -187,7 +190,7 @@ namespace Apresentacao
             {
                 var alunoCollection = new AlunoCollection();
                 var alunoNegocios = new AlunoNegocios();
-                alunoCollection = (AlunoCollection)alunoNegocios.ConsultaAlunoNome(textBoxAluno.Text);
+                alunoCollection = (AlunoCollection) alunoNegocios.ListarNome(textBoxAluno.Text);
                 dgvAlunoSelecionar.DataSource = null;
                 dgvAlunoSelecionar.DataSource = alunoCollection;
                 textBoxAluno.Clear();
@@ -199,7 +202,7 @@ namespace Apresentacao
                 {
                     var aluno = new Aluno();
                     var alunoNegocios = new AlunoNegocios();
-                    aluno = alunoNegocios.ConsultaAlunoId(textBoxAluno.Text);
+                    aluno = alunoNegocios.ListarId(textBoxAluno.Text);
                     var alunoCollection = new AlunoCollection();
                     alunoCollection.Add(aluno);
                     dgvAlunoSelecionar.DataSource = null;
