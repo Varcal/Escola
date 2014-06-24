@@ -1,0 +1,40 @@
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\DTO\bin\Debug\DTO.dll
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\DTO\bin\Debug\DTO.pdb
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\DTO\bin\Debug\AcessoDados.dll
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\DTO\bin\Debug\AcessoDados.pdb
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\DTO\obj\Debug\DTO.dll
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\DTO\obj\Debug\DTO.pdb
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\DTO\bin\Debug\DTO.dll
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\DTO\bin\Debug\DTO.pdb
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\DTO\bin\Debug\AcessoDados.dll
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\DTO\bin\Debug\AcessoDados.pdb
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\DTO\obj\Debug\DTO.dll
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\DTO\obj\Debug\DTO.pdb
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\DTO\bin\Debug\DTO.dll
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\DTO\bin\Debug\DTO.pdb
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\DTO\bin\Debug\AcessoDados.dll
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\DTO\bin\Debug\AcessoDados.pdb
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\DTO\obj\Debug\DTO.dll
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\DTO\obj\Debug\DTO.pdb
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\DTO\bin\Debug\DTO.dll
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\DTO\bin\Debug\DTO.pdb
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\DTO\bin\Debug\AcessoDados.dll
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\DTO\bin\Debug\AcessoDados.pdb
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\DTO\obj\Debug\DTO.dll
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\DTO\obj\Debug\DTO.pdb
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\DTO\bin\Debug\DTO.dll
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\DTO\bin\Debug\DTO.pdb
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\DTO\obj\Debug\DTO.dll
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\DTO\obj\Debug\DTO.pdb
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\DTO\bin\Debug\DTO.dll
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\DTO\bin\Debug\DTO.pdb
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\DTO\bin\Debug\AcessoDados.dll
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\DTO\bin\Debug\AcessoDados.pdb
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\DTO\obj\Debug\DTO.dll
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\DTO\obj\Debug\DTO.pdb

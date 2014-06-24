@@ -1,0 +1,207 @@
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\bin\Debug\Apresentacao.exe.config
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\bin\Debug\Apresentacao.exe
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\bin\Debug\Apresentacao.pdb
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\bin\Debug\DTO.dll
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\bin\Debug\Negocios.dll
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\bin\Debug\AcessoDados.dll
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\bin\Debug\DTO.pdb
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\bin\Debug\Negocios.pdb
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\bin\Debug\AcessoDados.pdb
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmAlunoCadastro.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmAlunoSelecionar.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmCursoCadastro.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmCursoSelecionar.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDisciplinaCadastro.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDisciplinaSelecionar.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmLogin.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmMenu.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmNotasCadastrar.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmProfessorCadastro.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmProfessorSelecionar.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmSplash.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.exe
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmSelecionaProfessor.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDiarioNotas.resources
+E:\prj_Escola\Apresentacao\bin\Debug\Apresentacao.exe.config
+E:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.exe
+E:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\bin\Debug\Apresentacao.exe.config
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\bin\Debug\Apresentacao.exe
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\bin\Debug\Apresentacao.pdb
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\bin\Debug\DTO.dll
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\bin\Debug\Negocios.dll
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\bin\Debug\AcessoDados.dll
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\bin\Debug\DTO.pdb
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\bin\Debug\Negocios.pdb
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\bin\Debug\AcessoDados.pdb
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmAlunoCadastro.resources
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmAlunoSelecionar.resources
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmCursoCadastro.resources
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmCursoSelecionar.resources
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDiarioNotas.resources
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDisciplinaCadastro.resources
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDisciplinaSelecionar.resources
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmLogin.resources
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmMenu.resources
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmNotasCadastrar.resources
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmProfessorCadastro.resources
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmProfessorSelecionar.resources
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmSelecionaProfessor.resources
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmSplash.resources
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.exe
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.pdb
+G:\prj_Escola\Apresentacao\bin\Debug\Apresentacao.exe.config
+G:\prj_Escola\Apresentacao\bin\Debug\Apresentacao.exe
+G:\prj_Escola\Apresentacao\bin\Debug\DTO.dll
+G:\prj_Escola\Apresentacao\bin\Debug\Negocios.dll
+G:\prj_Escola\Apresentacao\bin\Debug\AcessoDados.dll
+G:\prj_Escola\Apresentacao\bin\Debug\DTO.pdb
+G:\prj_Escola\Apresentacao\bin\Debug\Negocios.pdb
+G:\prj_Escola\Apresentacao\bin\Debug\AcessoDados.pdb
+G:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+G:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmAlunoCadastro.resources
+G:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmAlunoSelecionar.resources
+G:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmCursoCadastro.resources
+G:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmCursoSelecionar.resources
+G:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDiarioNotas.resources
+G:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDisciplinaCadastro.resources
+G:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDisciplinaSelecionar.resources
+G:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmLogin.resources
+G:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmMenu.resources
+G:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmNotasCadastrar.resources
+G:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmProfessorCadastro.resources
+G:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmProfessorSelecionar.resources
+G:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmSelecionaProfessor.resources
+G:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmSplash.resources
+G:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
+G:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
+G:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.pdb
+G:\prj_Escola\Apresentacao\bin\Debug\Apresentacao.pdb
+G:\prj_Escola\Apresentacao\obj\Debug\Apresentacao.exe
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmAlunoConsultaNotas.resources
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmRAConsulta.resources
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\Apresentacao.exe.config
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\Apresentacao.exe
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\Apresentacao.pdb
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\DTO.dll
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\Negocios.dll
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\AcessoDados.dll
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\DTO.pdb
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\Negocios.pdb
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\AcessoDados.pdb
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmAlunoCadastro.resources
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmAlunoConsultaNotas.resources
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmAlunoSelecionar.resources
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmCursoCadastro.resources
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmCursoSelecionar.resources
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDiarioNotas.resources
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDisciplinaCadastro.resources
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDisciplinaSelecionar.resources
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmLogin.resources
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmMenu.resources
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmNotasCadastrar.resources
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmProfessorCadastro.resources
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmProfessorSelecionar.resources
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmRAConsulta.resources
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmSelecionaProfessor.resources
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmSplash.resources
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.exe
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\Apresentacao.exe.config
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.exe
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\Apresentacao.exe
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\Apresentacao.pdb
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\DTO.dll
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\Negocios.dll
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\AcessoDados.dll
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\DTO.pdb
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\Negocios.pdb
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\AcessoDados.pdb
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmAlunoCadastro.resources
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmAlunoConsultaNotas.resources
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmAlunoSelecionar.resources
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmCursoCadastro.resources
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmCursoSelecionar.resources
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDiarioNotas.resources
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDisciplinaCadastro.resources
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDisciplinaSelecionar.resources
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmLogin.resources
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmMenu.resources
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmNotasCadastrar.resources
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmProfessorCadastro.resources
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmProfessorSelecionar.resources
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmRAConsulta.resources
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmSelecionaProfessor.resources
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmSplash.resources
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\Apresentacao.exe
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\Apresentacao.pdb
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\DTO.dll
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\Negocios.dll
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\AcessoDados.dll
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\DTO.pdb
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\Negocios.pdb
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\bin\Debug\AcessoDados.pdb
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmAlunoCadastro.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmAlunoConsultaNotas.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmAlunoSelecionar.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmCursoCadastro.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmCursoSelecionar.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDiarioNotas.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDisciplinaCadastro.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDisciplinaSelecionar.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmLogin.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmMenu.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmNotasCadastrar.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmProfessorCadastro.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmProfessorSelecionar.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmRAConsulta.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmSelecionaProfessor.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmSplash.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.exe
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.pdb
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\bin\Debug\Apresentacao.exe
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\bin\Debug\Apresentacao.pdb
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\bin\Debug\DTO.dll
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\bin\Debug\Negocios.dll
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\bin\Debug\AcessoDados.dll
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\bin\Debug\DTO.pdb
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\bin\Debug\Negocios.pdb
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\bin\Debug\AcessoDados.pdb
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmAlunoCadastro.resources
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmAlunoConsultaNotas.resources
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmAlunoSelecionar.resources
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmCursoCadastro.resources
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmCursoSelecionar.resources
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDiarioNotas.resources
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDisciplinaCadastro.resources
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmDisciplinaSelecionar.resources
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmLogin.resources
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmMenu.resources
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmNotasCadastrar.resources
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmProfessorCadastro.resources
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmProfessorSelecionar.resources
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmRAConsulta.resources
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmSelecionaProfessor.resources
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.FrmSplash.resources
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.exe
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\Apresentacao\obj\Debug\Apresentacao.pdb

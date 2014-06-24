@@ -1,0 +1,38 @@
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\AcessoDados\bin\Debug\AcessoDados.dll.config
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\AcessoDados\bin\Debug\AcessoDados.dll
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\AcessoDados\bin\Debug\AcessoDados.pdb
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\AcessoDados\obj\Debug\AcessoDados.dll
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\AcessoDados\obj\Debug\AcessoDados.pdb
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\prj_Escola\AcessoDados\obj\Debug\AcessoDados.csprojResolveAssemblyReference.cache
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\AcessoDados\bin\Debug\AcessoDados.dll.config
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\AcessoDados\bin\Debug\AcessoDados.dll
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\AcessoDados\bin\Debug\AcessoDados.pdb
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\AcessoDados\obj\Debug\AcessoDados.csprojResolveAssemblyReference.cache
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\AcessoDados\obj\Debug\AcessoDados.dll
+C:\Users\creba_000\Documents\Visual Studio 2012\Projects\prj_Escola\AcessoDados\obj\Debug\AcessoDados.pdb
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\AcessoDados\bin\Debug\AcessoDados.dll.config
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\AcessoDados\bin\Debug\AcessoDados.dll
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\AcessoDados\bin\Debug\AcessoDados.pdb
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\AcessoDados\obj\Debug\AcessoDados.csprojResolveAssemblyReference.cache
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\AcessoDados\obj\Debug\AcessoDados.dll
+C:\Users\Varçal\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\AcessoDados\obj\Debug\AcessoDados.pdb
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\AcessoDados\bin\Debug\AcessoDados.dll.config
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\AcessoDados\bin\Debug\AcessoDados.dll
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\AcessoDados\bin\Debug\AcessoDados.pdb
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\AcessoDados\obj\Debug\AcessoDados.csprojResolveAssemblyReference.cache
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\AcessoDados\obj\Debug\AcessoDados.dll
+C:\Users\Cleber\Documents\Visual Studio 2013\Projects\Cleber\prj_Escola\AcessoDados\obj\Debug\AcessoDados.pdb
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\AcessoDados\bin\Debug\AcessoDados.dll
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\AcessoDados\bin\Debug\AcessoDados.pdb
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\AcessoDados\obj\Debug\AcessoDados.dll
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\AcessoDados\obj\Debug\AcessoDados.pdb
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\AcessoDados\bin\Debug\AcessoDados.dll
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\AcessoDados\bin\Debug\AcessoDados.pdb
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\AcessoDados\obj\Debug\AcessoDados.dll
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\AcessoDados\obj\Debug\AcessoDados.pdb
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\AcessoDados\bin\Debug\AcessoDados.dll.config
+V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\AcessoDados\obj\Debug\AcessoDados.csprojResolveAssemblyReference.cache
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\AcessoDados\obj\Debug\AcessoDados.csprojResolveAssemblyReference.cache
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\AcessoDados\bin\Debug\DTO.dll
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\AcessoDados\bin\Debug\DTO.pdb
+C:\Users\Cleber\Documents\Visual Studio 2012\Projects\Cleber\prj_Escola\AcessoDados\bin\Debug\AcessoDados.dll.config
