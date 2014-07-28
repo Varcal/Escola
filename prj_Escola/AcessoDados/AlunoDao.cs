@@ -30,7 +30,7 @@ namespace AcessoDados
             {
                  CarregarParametros(aluno);
                 _contexto.AdicionarParametros("@IdAluno", aluno.IdAluno);
-                string idAluno = _contexto.ExecutaManipulacao(CommandType.Text, "UPDATE tb_Aluno SET NomeAluno=@NomeAluno WHERE IdAluno=@IdAluno and IdCurso=@IdCurso select @IdAluno as Retorno").ToString();
+                string idAluno = _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspAlunoAlterar").ToString();
                 return idAluno;
             }
             catch (Exception erro)
@@ -52,7 +52,7 @@ namespace AcessoDados
             {
                 _contexto.LimparParametros();
                 _contexto.AdicionarParametros("@IdAluno", aluno.IdAluno);
-                string idAluno = _contexto.ExecutaManipulacao(CommandType.Text, "Delete from tb_Aluno where IdAluno = @IdAluno select @IdAluno as retorno").ToString();
+                string idAluno = _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspAlunoExcluir").ToString();
                 return idAluno;
             }
             catch (Exception erro)
@@ -65,11 +65,8 @@ namespace AcessoDados
         {
             try
             {
-                var alunoCollection = new AlunoCollection();
-                _contexto.LimparParametros();
-                _contexto.AdicionarParametros("@NomeAluno", "%");
-                DataTable dtAluno = _contexto.ExecutaConsulta(CommandType.Text,
-                    "SELECT * FROM tb_Aluno join tb_Curso on tb_Curso.IdCurso = tb_Aluno.IdCurso WHERE NomeAluno LIKE '%' + @NomeAluno + '%'");
+                var alunoCollection = new AlunoCollection();                         
+                DataTable dtAluno = _contexto.ExecutaConsulta(CommandType.StoredProcedure, "uspAlunoListarTodos");
                 foreach (DataRow linha in dtAluno.Rows)
                 {
                     Aluno aluno = new Aluno();
@@ -94,7 +91,7 @@ namespace AcessoDados
                 var alunoCollection = new Aluno();
                 _contexto.LimparParametros();
                 _contexto.AdicionarParametros("@IdAluno", id);
-                DataTable dtAluno = _contexto.ExecutaConsulta(CommandType.Text, "SELECT * FROM tb_Aluno join tb_Curso on tb_Curso.IdCurso = tb_Aluno.IdCurso WHERE IdAluno=@IdAluno");
+                DataTable dtAluno = _contexto.ExecutaConsulta(CommandType.StoredProcedure, "uspAlunoListarId");
                 foreach (DataRow linha in dtAluno.Rows)
                 {
                     
@@ -118,7 +115,7 @@ namespace AcessoDados
                 var alunoCollection = new AlunoCollection();
                 _contexto.LimparParametros();
                 _contexto.AdicionarParametros("@NomeAluno", txt);
-                DataTable dtAluno = _contexto.ExecutaConsulta(CommandType.Text, "SELECT * FROM tb_Aluno WHERE NomeAluno LIKE '%' + @NomeAluno + '%'");
+                DataTable dtAluno = _contexto.ExecutaConsulta(CommandType.StoredProcedure, "uspAlunoListarNome");
                 foreach (DataRow linha in dtAluno.Rows)
                 {
                     var aluno = new Aluno();
@@ -188,7 +185,7 @@ namespace AcessoDados
             {
                 _contexto.LimparParametros();
                 _contexto.AdicionarParametros("@NomeAluno", nome);
-                var dtAluno = _contexto.ExecutaConsulta(CommandType.Text, "Select * from tb_aluno where NomeAluno like '%' +@NomeAluno+ '%'");
+                var dtAluno = _contexto.ExecutaConsulta(CommandType.Text, "uspAlunoListarNome");
                 return dtAluno;
             }
             catch (Exception erro)

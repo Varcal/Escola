@@ -16,7 +16,7 @@ namespace AcessoDados
             {
                 _contexto.LimparParametros();
                 _contexto.AdicionarParametros("@NomeCurso", curso.NomeCurso);
-                string IdCurso = _contexto.ExecutaManipulacao(CommandType.Text, "INSERT INTO tb_Curso (NomeCurso) values(@NomeCurso)select @@IDENTITY as Retorno").ToString();
+                string IdCurso = _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspCursoInserir").ToString();
                 return IdCurso;
             }
             catch (Exception erro)
@@ -99,7 +99,7 @@ namespace AcessoDados
                 CursoCollection cursoCollection = new CursoCollection();
                 _contexto.LimparParametros();
                 _contexto.AdicionarParametros("@NomeCurso", txt);
-                DataTable dtCurso = _contexto.ExecutaConsulta(CommandType.Text, "Select * from tb_Curso Where NomeCurso like '%' + @NomeCurso + '%'");
+                DataTable dtCurso = _contexto.ExecutaConsulta(CommandType.StoredProcedure, "uspCursoConsultaNome");
                 foreach (DataRow linha in dtCurso.Rows)
                 {
                     Curso curso = new Curso();
@@ -122,8 +122,7 @@ namespace AcessoDados
                 CursoCollection cursoCollection = new CursoCollection();
                 _contexto.LimparParametros();
                 _contexto.AdicionarParametros("@NomeCurso", "%");
-                DataTable dtCurso = _contexto.ExecutaConsulta(CommandType.Text,
-                    "Select * from tb_Curso Where NomeCurso like '%' + @NomeCurso + '%'");
+                DataTable dtCurso = _contexto.ExecutaConsulta(CommandType.StoredProcedure, "uspCursoListarTodos");
                 foreach (DataRow linha in dtCurso.Rows)
                 {
                     Curso curso = new Curso();
@@ -146,7 +145,7 @@ namespace AcessoDados
                 CursoCollection cursoCollection = new CursoCollection();
                 _contexto.LimparParametros();
                 _contexto.AdicionarParametros("@NomeCurso", nome);
-                DataTable dtCurso = _contexto.ExecutaConsulta(CommandType.Text, "Select * from tb_Curso where NomeCurso like '%' + @NomeCurso + '%'");
+                DataTable dtCurso = _contexto.ExecutaConsulta(CommandType.StoredProcedure, "uspCursoConsultaNome");
                 return dtCurso;
             }
             catch (Exception erro)

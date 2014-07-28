@@ -82,16 +82,26 @@ namespace Apresentacao
             if (selecionado == Selecao.Professor)
             {
                 Professor professor = new Professor();
-                ProfessorNegocios professorNegocios = new ProfessorNegocios();
+                ProfessorCollection professorCollection = new ProfessorCollection();
+                ProfessorNegocios professorNegocios = new ProfessorNegocios();              
                 professor = professorNegocios.ConsultaProfessorId(textBoxRegistro.Text);
+                professorCollection.Add(professor);        
                 dgvProfessor.DataSource = null;
-                dgvProfessor.DataSource = professor;
+                dgvProfessor.DataSource = professorCollection;
             }
             if (selecionado == Selecao.Nome)
             {
                 ProfessorCollection professorCollection = new ProfessorCollection();
                 ProfessorNegocios professorNegocios = new ProfessorNegocios();
-                professorCollection =(ProfessorCollection) professorNegocios.ConsultaProfessorNome(textBoxRegistro.Text);
+                if (textBoxRegistro.Text == "")
+                {
+                    professorCollection = (ProfessorCollection)professorNegocios.ListarTodos();
+                }
+                else 
+                {
+                    professorCollection = (ProfessorCollection)professorNegocios.ConsultaProfessorNome(textBoxRegistro.Text);
+                }
+                
                 dgvProfessor.DataSource = null;
                 dgvProfessor.DataSource = professorCollection;
             }

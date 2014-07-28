@@ -89,7 +89,7 @@
             this.comboBoxCurso.BackColor = System.Drawing.Color.White;
             this.comboBoxCurso.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxCurso.FormattingEnabled = true;
-            this.comboBoxCurso.Location = new System.Drawing.Point(157, 24);
+            this.comboBoxCurso.Location = new System.Drawing.Point(157, 23);
             this.comboBoxCurso.Name = "comboBoxCurso";
             this.comboBoxCurso.Size = new System.Drawing.Size(327, 21);
             this.comboBoxCurso.TabIndex = 2;

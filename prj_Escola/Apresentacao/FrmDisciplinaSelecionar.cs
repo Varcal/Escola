@@ -148,7 +148,14 @@ namespace Apresentacao
             {
                 var disciplinaCollection = new DisciplinaCollection();
                 var disciplinaNegocios = new DisciplinaNegocios();
-                disciplinaCollection = (DisciplinaCollection)disciplinaNegocios.ConsultaDisciplinaNome(textBoxDisciplina.Text);
+                if (textBoxDisciplina.Text == "")
+                {
+                    disciplinaCollection = (DisciplinaCollection)disciplinaNegocios.ListarTodos();
+                }
+                else
+                {
+                    disciplinaCollection = (DisciplinaCollection)disciplinaNegocios.ConsultaDisciplinaNome(textBoxDisciplina.Text);
+                }
                 dgvDisciplinaSelecionar.DataSource = null;
                 dgvDisciplinaSelecionar.DataSource = disciplinaCollection;
             }

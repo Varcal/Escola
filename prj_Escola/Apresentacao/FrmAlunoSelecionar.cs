@@ -190,7 +190,15 @@ namespace Apresentacao
             {
                 var alunoCollection = new AlunoCollection();
                 var alunoNegocios = new AlunoNegocios();
-                alunoCollection = (AlunoCollection) alunoNegocios.ListarNome(textBoxAluno.Text);
+                if (textBoxAluno.Text == "")
+                {
+                    alunoCollection = (AlunoCollection)alunoNegocios.ListarTodos();
+                }
+                else
+                {
+                    alunoCollection = (AlunoCollection)alunoNegocios.ListarNome(textBoxAluno.Text);
+                }
+                
                 dgvAlunoSelecionar.DataSource = null;
                 dgvAlunoSelecionar.DataSource = alunoCollection;
                 textBoxAluno.Clear();

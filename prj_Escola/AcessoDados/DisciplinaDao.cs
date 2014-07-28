@@ -93,7 +93,7 @@ namespace AcessoDados
             }
             catch (Exception erro)
             {
-                throw new Exception("Não foi possivel consultar a disciplina por nomo" + erro.Message);
+                throw new Exception("Não foi possivel consultar a disciplina por nome" + erro.Message);
             }
         }
 
@@ -209,10 +209,8 @@ namespace AcessoDados
         {
             try
             {
-                var disciplinaCollection = new DisciplinaCollection();
-                _contexto.LimparParametros();
-                _contexto.AdicionarParametros("@NomeDisciplina", '%');             
-                DataTable dtDisciplina = _contexto.ExecutaConsulta(CommandType.StoredProcedure, "uspDisciplinaConsultaNome");
+                var disciplinaCollection = new DisciplinaCollection();                                     
+                DataTable dtDisciplina = _contexto.ExecutaConsulta(CommandType.StoredProcedure, "uspDisciplinaListarTodos");
                 foreach (DataRow linha in dtDisciplina.Rows)
                 {
                     var disciplina = new Disciplina();

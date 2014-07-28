@@ -61,7 +61,14 @@ namespace Apresentacao
         {
             CursoNegocios cursoNegocios = new CursoNegocios();
             CursoCollection cursoCollection = new CursoCollection();
-            cursoCollection = (CursoCollection)cursoNegocios.ConsultaCursoNome(textBoxCurso.Text);
+            if (textBoxCurso.Text == "")
+            {
+                cursoCollection = (CursoCollection)cursoNegocios.ListarTodos();
+            }
+            else
+            {
+                cursoCollection = (CursoCollection)cursoNegocios.ConsultaCursoNome(textBoxCurso.Text);
+            }           
             dgvCursoSelecionar.DataSource = null;
             dgvCursoSelecionar.DataSource = cursoCollection;
         }

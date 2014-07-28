@@ -44,3 +44,11 @@ C:\Users\Cleber\Documents\GitHub\Escola\prj_Escola\AcessoDados\bin\Debug\DTO.pdb
 C:\Users\Cleber\Documents\GitHub\Escola\prj_Escola\AcessoDados\obj\Debug\AcessoDados.csprojResolveAssemblyReference.cache
 C:\Users\Cleber\Documents\GitHub\Escola\prj_Escola\AcessoDados\obj\Debug\AcessoDados.dll
 C:\Users\Cleber\Documents\GitHub\Escola\prj_Escola\AcessoDados\obj\Debug\AcessoDados.pdb
+V:\Projetos\Escola\prj_Escola\AcessoDados\bin\Debug\AcessoDados.dll.config
+V:\Projetos\Escola\prj_Escola\AcessoDados\bin\Debug\AcessoDados.dll
+V:\Projetos\Escola\prj_Escola\AcessoDados\bin\Debug\AcessoDados.pdb
+V:\Projetos\Escola\prj_Escola\AcessoDados\bin\Debug\DTO.dll
+V:\Projetos\Escola\prj_Escola\AcessoDados\bin\Debug\DTO.pdb
+V:\Projetos\Escola\prj_Escola\AcessoDados\obj\Debug\AcessoDados.csprojResolveAssemblyReference.cache
+V:\Projetos\Escola\prj_Escola\AcessoDados\obj\Debug\AcessoDados.dll
+V:\Projetos\Escola\prj_Escola\AcessoDados\obj\Debug\AcessoDados.pdb

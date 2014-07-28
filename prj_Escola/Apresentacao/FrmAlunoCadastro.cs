@@ -221,6 +221,8 @@ namespace Apresentacao
                     notas.IdProfessor = professorCollection.First().IdProfessor;
                     notas.IdDisciplina = disciplinaCollection.First().IdDisciplina;
                     notas.IdAluno = alunoCollection.First().IdAluno;
+                    notas.Situacao = false;
+                    
 
                     var notasNegocios = new NotasNegocios();
                     string retorno = notasNegocios.InserirAluno(notas);

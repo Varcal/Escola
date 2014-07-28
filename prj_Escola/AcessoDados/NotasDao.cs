@@ -6,7 +6,7 @@ namespace AcessoDados
 {
     public class NotasDao
     {
-        readonly AcessoSqlServer _contexto = new AcessoSqlServer();
+        private readonly AcessoSqlServer _contexto = new AcessoSqlServer();
 
         public string Inserir(Notas notas)
         {
@@ -129,7 +129,7 @@ namespace AcessoDados
                 _contexto.LimparParametros();
                 _contexto.AdicionarParametros("@IdCurso", idCurso);
                 _contexto.AdicionarParametros("@IdDisciplina", idDisciplina);
-                _contexto.AdicionarParametros("@Idprofessor", idProfessor);
+                _contexto.AdicionarParametros("@IdProfessor", idProfessor);
                 DataTable dtNotas = _contexto.ExecutaConsulta(CommandType.StoredProcedure, "uspDiarioDigital");
                 foreach (DataRow linha in dtNotas.Rows)
                 {

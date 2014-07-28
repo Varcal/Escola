@@ -38,3 +38,8 @@ V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\DTO\bin\Debug\AcessoDados.p
 V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
 V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\DTO\obj\Debug\DTO.dll
 V:\Backup\Backup_30112013\projetos\Cleber\prj_Escola\DTO\obj\Debug\DTO.pdb
+V:\Projetos\Escola\prj_Escola\DTO\bin\Debug\DTO.dll
+V:\Projetos\Escola\prj_Escola\DTO\bin\Debug\DTO.pdb
+V:\Projetos\Escola\prj_Escola\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+V:\Projetos\Escola\prj_Escola\DTO\obj\Debug\DTO.dll
+V:\Projetos\Escola\prj_Escola\DTO\obj\Debug\DTO.pdb

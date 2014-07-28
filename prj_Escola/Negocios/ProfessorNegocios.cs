@@ -52,6 +52,12 @@ namespace Negocios
             return professorCollection;
         }
 
+        public IEnumerable<Professor> ListarTodos()
+        {
+            var professorCollection = _professorDao.ListarTodos();
+            return professorCollection;
+        }
+
         public ProfessorCollection ConsultaProfessorDisciplina(string nome)
         {
             var professorCollection = _professorDao.ConsultaProfessorDisciplina(nome);

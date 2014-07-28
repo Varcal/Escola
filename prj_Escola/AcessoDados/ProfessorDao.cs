@@ -126,9 +126,7 @@ namespace AcessoDados
             try
             {
                 var professorCollection = new ProfessorCollection();
-                _contexto.LimparParametros();
-                _contexto.AdicionarParametros("@NomeProfessor", "%");
-                DataTable dtProfessor = _contexto.ExecutaConsulta(CommandType.StoredProcedure, "uspProfessorConsultaNome");
+                DataTable dtProfessor = _contexto.ExecutaConsulta(CommandType.StoredProcedure, "uspProfessorListarTodos");
                 foreach (DataRow linha in dtProfessor.Rows)
                 {
                     var professor = new Professor();
@@ -191,6 +189,22 @@ namespace AcessoDados
             }
         }
 
+        public string InserirDisciplina(Professor professor)
+        {
+            try
+            {
+                _contexto.LimparParametros();
+                _contexto.AdicionarParametros("@IdProfessor", professor.IdProfessor);
+                _contexto.AdicionarParametros("@IdDisciplina", professor.IdDisciplina);
+                string IdProfessor = _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspProfessorDisciplinaInserir").ToString();
+                return IdProfessor;
+            }
+            catch (Exception erro)
+            {
+                return erro.Message;
+            }
+        }
+     
         public string AlterarProfessorDisciplina(Professor professor)
         {
             try
@@ -232,21 +246,6 @@ namespace AcessoDados
             return dtProfessor;
         }
 
-        public string InserirDisciplina(Professor professor)
-        {
-            try
-            {
-                _contexto.LimparParametros();
-                _contexto.AdicionarParametros("@IdProfessor", professor.IdProfessor);
-                _contexto.AdicionarParametros("@IdDisciplina", professor.IdDisciplina);
-                string IdProfessor = _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspProfessorDisciplinaInserir").ToString();
-                return IdProfessor;
-            }
-                catch (Exception erro)
-            {
-                return erro.Message;
-            }
-        }
-     
+       
     }
 }

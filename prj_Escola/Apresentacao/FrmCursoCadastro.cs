@@ -149,7 +149,7 @@ namespace Apresentacao
         {
             DisciplinaCollection disciplinaCollection = new DisciplinaCollection();
             DisciplinaNegocios disciplinaNegocios = new DisciplinaNegocios();
-            disciplinaCollection =(DisciplinaCollection) disciplinaNegocios.ConsultaDisciplinaNome("%");
+            disciplinaCollection =(DisciplinaCollection) disciplinaNegocios.ListarTodos();
             foreach (Disciplina disciplina in disciplinaCollection)
             {
                 comboBoxDisciplina.Items.Add(disciplina.NomeDisciplina);
@@ -157,7 +157,7 @@ namespace Apresentacao
 
             CursoCollection cursoCollection = new CursoCollection();
             CursoNegocios cursoNegocios = new CursoNegocios();
-            cursoCollection =(CursoCollection) cursoNegocios.ConsultaCursoNome("%");
+            cursoCollection =(CursoCollection) cursoNegocios.ListarTodos();
             foreach(Curso curso in cursoCollection)
             {
                 comboBoxCurso.Items.Add(curso.NomeCurso);

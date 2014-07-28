@@ -38,6 +38,14 @@ namespace Negocios
             return disciplinaCollecion;
         }
 
+
+        public IEnumerable<Disciplina> ListarTodos()
+        {
+            var disciplinaCollecion = _disciplinaDao.ListarTodos();
+            return disciplinaCollecion;
+        }
+
+
         public DataTable CarregaComboDisciplina(string nome)
         {
             var dtDisciplina = _disciplinaDao.CarregaComboDisciplina(nome);
