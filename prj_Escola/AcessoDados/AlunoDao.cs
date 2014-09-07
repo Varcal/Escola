@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data;
+using System.Linq;
 using AcessoDados.Interface;
 using DTO;
 using System.Collections.Generic;
@@ -66,7 +67,7 @@ namespace AcessoDados
             try
             {
                 var alunoCollection = new AlunoCollection();                         
-                DataTable dtAluno = _contexto.ExecutaConsulta(CommandType.StoredProcedure, "uspAlunoListarTodos");
+                var dtAluno = _contexto.ExecutaConsulta(CommandType.StoredProcedure, "uspAlunoListarTodos");
                 foreach (DataRow linha in dtAluno.Rows)
                 {
                     Aluno aluno = new Aluno();
@@ -124,7 +125,11 @@ namespace AcessoDados
                     aluno.IdCurso = Convert.ToInt32(linha["IdCurso"]);
                     alunoCollection.Add(aluno);
                 }
+
+                
                 return alunoCollection;
+
+                
             }
             catch (Exception erro)
             {

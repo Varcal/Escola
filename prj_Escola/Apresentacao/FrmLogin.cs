@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DTO;
+using JetBrains.ReSharper.Psi.Resx.Utils;
 using Negocios;
 
 namespace Apresentacao
@@ -21,20 +22,26 @@ namespace Apresentacao
 
         private void buttonConfirmar_Click(object sender, EventArgs e)
         {
-            LoginNegocios loginNegocios = new LoginNegocios();
-            Login login = new Login();
-            login.IdLogin = loginNegocios.Logon(textBoxUsuario.Text,textBoxSenha.Text);
-            if(login.IdLogin>0)
+            try
             {
-              this.Visible = false;
-              FrmMenu frm = new FrmMenu();
-              frm.Show();
-              
+                var loginNegocios = new LoginNegocios();
+                var login = new Login { IdLogin = loginNegocios.Logon(textBoxUsuario.Text, textBoxSenha.Text) };
+               
+                    if (login.IdLogin > 0)
+                    {
+                        this.Visible = false;
+                        var frm = new FrmMenu();
+                        frm.Show();
+                    }
+                       
             }
-            else 
+            catch (Exception)
             {
-                MessageBox.Show("Usuario ou senha inválidos","ERRO",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show(@"Usuario ou senha inválidos", @"ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            
+           
+                           
         }
 
         private void buttonCancelar_Click(object sender, EventArgs e)

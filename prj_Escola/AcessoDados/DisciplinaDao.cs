@@ -7,9 +7,9 @@ using DTO;
 
 namespace AcessoDados
 {
-    public class DisciplinaDao:IRepositorio<Disciplina>
+    public class DisciplinaDao : IRepositorio<Disciplina>
     {
-        readonly AcessoSqlServer _contexto = new AcessoSqlServer();
+        private readonly AcessoSqlServer _contexto = new AcessoSqlServer();
 
         private string Inserir(Disciplina disciplina)
         {
@@ -17,7 +17,8 @@ namespace AcessoDados
             {
                 _contexto.LimparParametros();
                 _contexto.AdicionarParametros("@NomeDisciplina", disciplina.NomeDisciplina);
-                string IdDisciplina = _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspDisciplinaInserir").ToString();
+                string IdDisciplina =
+                    _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspDisciplinaInserir").ToString();
                 return IdDisciplina;
             }
             catch (Exception erro)
@@ -33,7 +34,8 @@ namespace AcessoDados
                 _contexto.LimparParametros();
                 _contexto.AdicionarParametros("@IdDisciplina", disciplina.IdDisciplina);
                 _contexto.AdicionarParametros("@NomeDisciplina", disciplina.NomeDisciplina);
-                string IdDisciplina = _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspDisciplinaAlterar").ToString();
+                string IdDisciplina =
+                    _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspDisciplinaAlterar").ToString();
                 return IdDisciplina;
             }
             catch (Exception erro)
@@ -65,12 +67,35 @@ namespace AcessoDados
             {
                 _contexto.LimparParametros();
                 _contexto.AdicionarParametros("@IdDisciplina", disciplina.IdDisciplina);
-                string IdDisciplina = _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspDisciplinaExcluir").ToString();
+                string IdDisciplina =
+                    _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspDisciplinaExcluir").ToString();
                 return IdDisciplina;
             }
             catch (Exception erro)
             {
                 return erro.Message;
+            }
+        }
+
+        public IEnumerable<Disciplina> ListarTodos()
+        {
+            try
+            {
+                var disciplinaCollection = new DisciplinaCollection();
+                DataTable dtDisciplina = _contexto.ExecutaConsulta(CommandType.StoredProcedure,
+                    "uspDisciplinaListarTodos");
+                foreach (DataRow linha in dtDisciplina.Rows)
+                {
+                    var disciplina = new Disciplina();
+                    disciplina.IdDisciplina = Convert.ToInt32(linha["IdDisciplina"]);
+                    disciplina.NomeDisciplina = Convert.ToString(linha["NomeDisciplina"]);
+                    disciplinaCollection.Add(disciplina);
+                }
+                return disciplinaCollection;
+            }
+            catch (Exception erro)
+            {
+                throw new Exception("Não foi possivel consultar a disciplina por nomo" + erro.Message);
             }
         }
 
@@ -81,7 +106,8 @@ namespace AcessoDados
                 var disciplinaCollection = new DisciplinaCollection();
                 _contexto.LimparParametros();
                 _contexto.AdicionarParametros("@NomeDisciplina", txt);
-                DataTable dtDisciplina = _contexto.ExecutaConsulta(CommandType.StoredProcedure, "uspDisciplinaConsultaNome");
+                DataTable dtDisciplina = _contexto.ExecutaConsulta(CommandType.StoredProcedure,
+                    "uspDisciplinaConsultaNome");
                 foreach (DataRow linha in dtDisciplina.Rows)
                 {
                     Disciplina disciplina = new Disciplina();
@@ -101,10 +127,11 @@ namespace AcessoDados
         {
             try
             {
-                 var disciplinaCollection= new DisciplinaCollection();
+                var disciplinaCollection = new DisciplinaCollection();
                 _contexto.LimparParametros();
                 _contexto.AdicionarParametros("@NomeDisciplina", id);
-                DataTable dtDisciplina = _contexto.ExecutaConsulta(CommandType.StoredProcedure, "uspDisciplinaConsultaId");
+                DataTable dtDisciplina = _contexto.ExecutaConsulta(CommandType.StoredProcedure,
+                    "uspDisciplinaConsultaId");
                 foreach (DataRow linha in dtDisciplina.Rows)
                 {
                     Disciplina disciplina = new Disciplina();
@@ -113,22 +140,23 @@ namespace AcessoDados
                     disciplinaCollection.Add(disciplina);
                 }
 
-                return disciplinaCollection.First(x=> x.IdDisciplina == Convert.ToInt32(id));
+                return disciplinaCollection.First(x => x.IdDisciplina == Convert.ToInt32(id));
             }
             catch (Exception erro)
             {
                 throw new Exception("Não foi possivel consultar a disciplina por nomo" + erro.Message);
             }
         }
-      
+
         public DisciplinaCollection ConsultaDisciplinaCurso(string nome)
-        { 
+        {
             try
             {
                 DisciplinaCollection disciplinaCollection = new DisciplinaCollection();
                 _contexto.LimparParametros();
                 _contexto.AdicionarParametros("@NomeCurso", nome);
-                DataTable dtDisciplina = _contexto.ExecutaConsulta(CommandType.StoredProcedure, "uspDisciplinaConsultaCurso");
+                DataTable dtDisciplina = _contexto.ExecutaConsulta(CommandType.StoredProcedure,
+                    "uspDisciplinaConsultaCurso");
                 foreach (DataRow linha in dtDisciplina.Rows)
                 {
                     Disciplina disciplina = new Disciplina();
@@ -141,7 +169,7 @@ namespace AcessoDados
             }
             catch (Exception erro)
             {
-                throw new Exception("Não foi possivel consultar a disciplina por nomo"+erro.Message);
+                throw new Exception("Não foi possivel consultar a disciplina por nomo" + erro.Message);
             }
         }
 
@@ -153,8 +181,9 @@ namespace AcessoDados
                 var disciplinaCollection = new DisciplinaCollection();
                 _contexto.LimparParametros();
                 _contexto.AdicionarParametros("@IdDisciplina", idDisciplina);
-                _contexto.AdicionarParametros("@IdCurso",idCurso);
-                DataTable dtDisciplina = _contexto.ExecutaConsulta(CommandType.StoredProcedure, "uspCursoConsultaDisciplina");
+                _contexto.AdicionarParametros("@IdCurso", idCurso);
+                DataTable dtDisciplina = _contexto.ExecutaConsulta(CommandType.StoredProcedure,
+                    "uspCursoConsultaDisciplina");
                 foreach (DataRow linha in dtDisciplina.Rows)
                 {
                     var disciplina = new Disciplina();
@@ -179,7 +208,8 @@ namespace AcessoDados
                 DisciplinaCollection disciplinaCollection = new DisciplinaCollection();
                 _contexto.LimparParametros();
                 _contexto.AdicionarParametros("@NomeDisciplina", nome);
-                DataTable dtDisciplina = _contexto.ExecutaConsulta(CommandType.StoredProcedure, "uspDisciplinaConsultaNome");
+                DataTable dtDisciplina = _contexto.ExecutaConsulta(CommandType.StoredProcedure,
+                    "uspDisciplinaConsultaNome");
 
                 return dtDisciplina;
             }
@@ -196,7 +226,8 @@ namespace AcessoDados
                 _contexto.LimparParametros();
                 _contexto.AdicionarParametros("@IdCurso", disciplina.IdCurso);
                 _contexto.AdicionarParametros("@IdDisciplina", disciplina.IdDisciplina);
-                string IdCurso = _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspDisciplinaCursoInserir").ToString();
+                string IdCurso =
+                    _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspDisciplinaCursoInserir").ToString();
                 return IdCurso;
             }
             catch (Exception erro)
@@ -205,27 +236,5 @@ namespace AcessoDados
             }
         }
 
-        public IEnumerable<Disciplina> ListarTodos()
-        {
-            try
-            {
-                var disciplinaCollection = new DisciplinaCollection();                                     
-                DataTable dtDisciplina = _contexto.ExecutaConsulta(CommandType.StoredProcedure, "uspDisciplinaListarTodos");
-                foreach (DataRow linha in dtDisciplina.Rows)
-                {
-                    var disciplina = new Disciplina();
-                    disciplina.IdDisciplina = Convert.ToInt32(linha["IdDisciplina"]);
-                    disciplina.NomeDisciplina = Convert.ToString(linha["NomeDisciplina"]);
-                    disciplinaCollection.Add(disciplina);
-                }
-                return disciplinaCollection;
-            }
-            catch (Exception erro)
-            {
-                throw new Exception("Não foi possivel consultar a disciplina por nomo" + erro.Message);
-            }
-        }
-
-        
     }
 }

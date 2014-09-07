@@ -7,8 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 using DTO;
 using Negocios;
+using Negocios.Interfaces;
 
 namespace Apresentacao
 {
@@ -49,7 +51,7 @@ namespace Apresentacao
                 }
                 if (acaoSelecionada == AcaoNaTela.Consultar)
                 {
-                    this.Text = "Consulta Cadastro Aluno";
+                    this.Text = @"Consulta Cadastro Aluno";
                     CursoNegocios cursoNegocios = new CursoNegocios();
                     Curso curso = new Curso();
                     curso = cursoNegocios.ConsultaCursoId(aluno.IdCurso.ToString());
@@ -142,26 +144,25 @@ namespace Apresentacao
                 {
                     if (comboBoxCurso.Text == "" || textBoxAluno.Text == "")
                     {
-                        MessageBox.Show("Campo curso ou aluno invalido", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(@"Campo curso ou aluno invalido", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         return;
                     }
-                    var cursoNegocios = new CursoNegocios();
-                    var cursoCollection = new CursoCollection();
-                    cursoCollection = (CursoCollection)cursoNegocios.ConsultaCursoNome(comboBoxCurso.Text);
+                    var cursoNegocios = new CursoNegocios();                  
+                    var cursoCollection = (CursoCollection)cursoNegocios.ConsultaCursoNome(comboBoxCurso.Text);
                     var aluno = new Aluno();
-                    var alunoNegocios = new AlunoNegocios();
+                    IAlunoNegocios alunoNegocios = new AlunoNegocios();
                     aluno.IdCurso = cursoCollection[0].IdCurso;
                     aluno.NomeAluno = textBoxAluno.Text.ToUpper();
                     string retorno = alunoNegocios.Salvar(aluno);
                     try
                     {
                         int IdAluno = Convert.ToInt32(retorno);
-                        MessageBox.Show("Aluno " + retorno + " inserido com sucesso", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(@"Aluno " + retorno + @" inserido com sucesso", @"AVISO", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         DialogResult = DialogResult.Yes;
                     }
                     catch
                     {
-                        MessageBox.Show("Não foi possivel inserir novo aluno", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(@"Não foi possivel inserir novo aluno", @"ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         DialogResult = DialogResult.No;
                     }
                 }
@@ -169,14 +170,13 @@ namespace Apresentacao
                 {
                     if (comboBoxCurso.Text == "" || textBoxAluno.Text == "")
                     {
-                        MessageBox.Show("Campo curso ou aluno invalido", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(@"Campo curso ou aluno invalido", @"AVISO", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         return;
                     }
-                    CursoNegocios cursoNegocios = new CursoNegocios();
-                    CursoCollection cursoCollection = new CursoCollection();
-                    cursoCollection = (CursoCollection)cursoNegocios.ConsultaCursoNome(comboBoxCurso.Text);
-                    Aluno aluno = new Aluno();
-                    AlunoNegocios alunoNegocios = new AlunoNegocios();
+                    var cursoNegocios = new CursoNegocios();                 
+                    var cursoCollection = (CursoCollection)cursoNegocios.ConsultaCursoNome(comboBoxCurso.Text);
+                    var aluno = new Aluno();
+                    var alunoNegocios = new AlunoNegocios();
                     aluno.IdCurso = cursoCollection[0].IdCurso;
                     aluno.IdAluno = Convert.ToInt32(textBoxRA.Text);
                     aluno.NomeAluno = textBoxAluno.Text;
@@ -185,12 +185,12 @@ namespace Apresentacao
                     try
                     {
                         int IdAluno = Convert.ToInt32(retorno);
-                        MessageBox.Show("Aluno " + retorno + " alterado com sucesso", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(@"Aluno " + retorno + @" alterado com sucesso", @"AVISO", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         DialogResult = DialogResult.Yes;
                     }
                     catch
                     {
-                        MessageBox.Show("Não foi possivel efetuar alteração", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(@"Não foi possivel efetuar alteração", @"ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         DialogResult = DialogResult.No;
                     }
                 }
@@ -198,10 +198,10 @@ namespace Apresentacao
             if (selecionada == Selecao.Disciplina)
             {
 
-                if (comboBoxCurso1.Text == "Selecione o curso" || comboBoxDisciplina.Text == "Selecione a disciplina" ||
-                    comboBoxProfessor.Text == "Selecione o professor" || comboBoxAluno.Text == "Selecione o aluno")
+                if (comboBoxCurso1.Text == @"Selecione o curso" || comboBoxDisciplina.Text == @"Selecione a disciplina" ||
+                    comboBoxProfessor.Text == @"Selecione o professor" || comboBoxAluno.Text == @"Selecione o aluno")
                 {
-                    MessageBox.Show("Todos os campos devem ser selecionados", "AVISO", MessageBoxButtons.OK,
+                    MessageBox.Show(@"Todos os campos devem ser selecionados", @"AVISO", MessageBoxButtons.OK,
                         MessageBoxIcon.Information);
                     return;
                 }
@@ -230,14 +230,14 @@ namespace Apresentacao
                     try
                     {
                         int IdNotas = int.Parse(retorno);
-                        MessageBox.Show("Aluno inserido no diário digital com sucesso", "AVISO", MessageBoxButtons.OK,
+                        MessageBox.Show(@"Aluno inserido no diário digital com sucesso", @"AVISO", MessageBoxButtons.OK,
                             MessageBoxIcon.Information);
                         DialogResult = DialogResult.Yes;
                     }
 
                     catch
                     {
-                        MessageBox.Show("Não foi possivel inserir aluno", "ERRO", MessageBoxButtons.OK,
+                        MessageBox.Show(@"Não foi possivel inserir aluno", @"ERRO", MessageBoxButtons.OK,
                             MessageBoxIcon.Error);
                     }
             }
@@ -303,7 +303,7 @@ namespace Apresentacao
             comboBoxAluno.Items.Clear();
             comboBoxAluno.Items.Add("Selecione o aluno");
             comboBoxAluno.SelectedIndex = 0;
-            var alunoNegocios = new AlunoNegocios();
+            IAlunoNegocios alunoNegocios = new AlunoNegocios();
             var cursoNegocios = new CursoNegocios();
             var cursoCollection =(CursoCollection) cursoNegocios.ConsultaCursoNome(comboBoxCurso1.SelectedItem.ToString());
             var alunoCollection = (AlunoCollection)alunoNegocios.ConsultaAlunoCurso(cursoCollection[0].IdCurso);

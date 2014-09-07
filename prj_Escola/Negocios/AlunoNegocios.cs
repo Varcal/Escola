@@ -9,8 +9,7 @@ namespace Negocios
 {
     public class AlunoNegocios:AlunoDao, IAlunoNegocios
     {
-        
-             
+                     
     }
 }
 

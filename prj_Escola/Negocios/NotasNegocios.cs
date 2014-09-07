@@ -6,48 +6,31 @@ using System.Threading.Tasks;
 using System.Data;
 using DTO;
 using AcessoDados;
+using Negocios.Interfaces;
 
 namespace Negocios
 {
-    public class NotasNegocios
+    public class NotasNegocios:NotasDao, INotasNegoscios
     {
-        private readonly NotasDao _notasDao = new NotasDao();
 
-        public string Inserir(Notas notas)
+        public string Salvar(Notas entidade)
         {
-            var idNotas = _notasDao.Inserir(notas);
-            return idNotas;
+            throw new NotImplementedException();
         }
 
-        public string InserirAluno(Notas notas)
+        public IEnumerable<Notas> ListarTodos()
         {
-            var idNotas = _notasDao.InserirAluno(notas);
-            return idNotas;
+            throw new NotImplementedException();
         }
 
-        public string Alterar(Notas notas)
+        public Notas ListarId(string id)
         {
-            var idNotas = _notasDao.Alterar(notas);
-            return idNotas;
+            throw new NotImplementedException();
         }
 
-        public string Excluir(Notas notas)
+        public IEnumerable<Notas> ListarNome(string txt)
         {
-            var idNotas = _notasDao.Excluir(notas);
-            return idNotas;
+            throw new NotImplementedException();
         }
-
-        public NotasCollection ConsultaNotasRA(int id)
-        {
-            var notasCollection = _notasDao.ConsultaNotasRA(id);
-            return notasCollection;
-        }
-
-        public NotasCollection ConsultaNotasAluno(int idDisciplina, int idProfessor, int idCurso)
-        {
-            var notasCollection = _notasDao.ConsultaNotasAluno(idDisciplina, idProfessor, idCurso);
-            return notasCollection;
-        }
-
     }
 }

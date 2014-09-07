@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,8 +9,12 @@ using DTO;
 
 namespace Negocios.Interfaces
 {
-    public interface IAlunoNegocios: IRepositorio<Aluno>
+    public interface IAlunoNegocios : IRepositorio<Aluno>
     {
         AlunoCollection ConsultaAlunoCurso(int id);
+
+        AlunoCollection ConsultaAlunoCursoDisciplina(string curso);
+
+        DataTable CarregaComboAluno(string nome);
     }
 }

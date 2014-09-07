@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using AcessoDados;
-using DTO; 
+using DTO;
+using JetBrains.ReSharper.Psi.VB.Util;
 
 namespace Negocios
 {
@@ -15,8 +16,17 @@ namespace Negocios
 
         public int Logon(string usuario, string senha)
         {
-            var login = _loginDao.Logon(usuario, senha);
-            return login;
+            try
+            {
+                var login = _loginDao.Logon(usuario, senha);
+                return login;
+            }
+            catch (Exception ex)
+            {
+                
+                throw new Exception(ex.Message);
+            }
+           
         }
     }
 }

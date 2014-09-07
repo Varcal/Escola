@@ -8,6 +8,11 @@ namespace AcessoDados
     {
         private readonly AcessoSqlServer _contexto = new AcessoSqlServer();
 
+        public string Salvar(Notas notas)
+        {
+            return null;
+        }
+
         public string Inserir(Notas notas)
         {
             try
@@ -21,8 +26,8 @@ namespace AcessoDados
                 _contexto.AdicionarParametros("@Trabalho", notas.Trabalho);
                 _contexto.AdicionarParametros("@Media", notas.Media);
                 _contexto.AdicionarParametros("@Situação", notas.Situacao);
-                string IdNotas = _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspNotasInserir").ToString();
-                return IdNotas;
+                string idNotas = _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspNotasInserir").ToString();
+                return idNotas;
             }
             catch(Exception erro)
             {
@@ -39,15 +44,14 @@ namespace AcessoDados
                 _contexto.AdicionarParametros("@IdDisciplina", notas.IdDisciplina);
                 _contexto.AdicionarParametros("@IdProfessor",notas.IdProfessor);
                 _contexto.AdicionarParametros("@IdAluno", notas.IdAluno);
-                string IdNotas = _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspAlunoInserirDiario").ToString();
-                return IdNotas;
+                string idNotas = _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspAlunoInserirDiario").ToString();
+                return idNotas;
             }
             catch (Exception erro)
             {
                 return erro.Message;
             }
         }
-
 
         public string Alterar(Notas notas)
         {
@@ -63,8 +67,8 @@ namespace AcessoDados
                 _contexto.AdicionarParametros("@Trabalho", notas.Trabalho);
                 _contexto.AdicionarParametros("@Media", notas.Media);
                 _contexto.AdicionarParametros("@Situacao", notas.Situacao);
-                string IdNotas = _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspNotasAlterar").ToString();
-                return IdNotas;
+                string idNotas = _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspNotasAlterar").ToString();
+                return idNotas;
             }
             catch (Exception erro)
             {
@@ -80,8 +84,8 @@ namespace AcessoDados
                 _contexto.AdicionarParametros("@IdCurso", notas.IdCurso);
                 _contexto.AdicionarParametros("@IdDisciplina", notas.IdDisciplina);
                 _contexto.AdicionarParametros("@IdAluno", notas.IdAluno);
-                string IdNotas = _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspNotasExcluir").ToString();
-                return IdNotas;
+                string idNotas = _contexto.ExecutaManipulacao(CommandType.StoredProcedure, "uspNotasExcluir").ToString();
+                return idNotas;
             }
             catch (Exception erro)
             {
@@ -89,7 +93,7 @@ namespace AcessoDados
             }
         }
 
-        public NotasCollection ConsultaNotasRA(int id)
+        public NotasCollection ConsultaNotasRa(int id)
         {
             try
             {
